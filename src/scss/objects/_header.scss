@@ -1,0 +1,13 @@
+.header {
+  &__wrapper {
+    margin: 38px;
+    display: flex;
+    gap: 24px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  a {
+    color: black;
+  }
+}
