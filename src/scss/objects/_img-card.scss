@@ -1,0 +1,16 @@
+.img-card {
+  &__wrapper {
+    position: absolute;
+    top: 501px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 426px;
+    height: 697px;
+  }
+
+  &__content {
+    max-width: 100%;
+  }
+}

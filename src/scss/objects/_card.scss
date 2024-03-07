@@ -1,0 +1,39 @@
+.card {
+  position: relative;
+  border: 1px solid #e9e9ec;
+  width: 474px;
+  height: 500px;
+  padding: 40px 43px 0 43px;
+
+  &__subheader {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 98%;
+  }
+
+  &__header {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 101%;
+    letter-spacing: 0.03em;
+  }
+
+  &__img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  &__cross {
+    position: absolute;
+    bottom: 34px;
+    left: 36px;
+  }
+
+  &__plus {
+    position: absolute;
+    bottom: 34px;
+    right: 36px;
+  }
+}

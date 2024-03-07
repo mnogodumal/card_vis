@@ -1,0 +1,32 @@
+.info {
+  position: relative;
+  background: var(--green-color);
+
+  &__wrapper {
+    min-height: calc(1103px - 92px);
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.info-text-wrapper {
+  margin-top: 100px;
+  max-height: 367px;
+  max-width: 660px;
+  text-align: center;
+
+  &__header {
+    padding: 0;
+    margin: 0;
+    font-size: 102px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    line-height: 100%;
+  }
+
+  &__text {
+    margin-top: 36px;
+    font-weight: 400;
+    font-size: 21px;
+  }
+}
