@@ -1,0 +1,19 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  margin-top: 90px;
+  gap: 26px;
+
+  &__column-one {
+    display: flex;
+    flex-direction: column;
+    row-gap: 46px;
+  }
+
+  &__column-two {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 46px;
+  }
+}
