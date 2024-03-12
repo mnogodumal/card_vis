@@ -1,0 +1,44 @@
+.footer {
+  position: relative;
+
+  &__wrapper {
+    padding: 83px 28px;
+  }
+
+  &__text {
+    margin-top: 53px;
+    display: flex;
+    gap: 150px;
+  }
+
+  &__text-img {
+    max-width: 102px;
+    height: 26px;
+  }
+
+  &__text-about {
+
+    &__header {
+      margin-bottom: 10px;
+      font-weight: 400;
+      font-size: 16px;
+      color: #565959;
+    }
+
+    &__descr {
+      margin-top: 11px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 130%;
+      color: #000;
+    }
+  }
+}
+
+.container {
+  position: relative;
+
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
