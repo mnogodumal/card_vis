@@ -5,10 +5,20 @@
   height: 500px;
   padding: 40px 43px 0 43px;
 
+  @media (max-width: 991px) {
+    width: 350px;
+    height: 376px;
+    padding: 30px 35px 0 35px;
+  }
+
   &__subheader {
     font-weight: 400;
     font-size: 16px;
     line-height: 98%;
+
+    @media (max-width: 991px) {
+      font-size: 14px;
+    }
   }
 
   &__header {
@@ -17,16 +27,25 @@
     font-size: 39px;
     line-height: 101%;
     letter-spacing: 0.03em;
+
+    @media (max-width: 991px) {
+      font-size: 33px;
+    }
   }
 
   &__text {
     font-weight: 400;
-    font-size: 26px;
+    font-size: 25px;
     line-height: 110%;
+
+    @media (max-width: 991px) {
+      font-size: 24px;
+    }
   }
 
   &__img {
     position: absolute;
+    width: 100%;
     bottom: 0;
     left: 0;
   }
@@ -35,11 +54,23 @@
     position: absolute;
     bottom: 34px;
     left: 36px;
+
+    @media (max-width: 991px) {
+      bottom: 26px;
+      left: 28px;
+      width: 45px;
+    }
   }
 
   &__plus {
     position: absolute;
     bottom: 34px;
     right: 36px;
+
+    @media (max-width: 991px) {
+      bottom: 26px;
+      right: 28px;
+      width: 45px;
+    }
   }
 }

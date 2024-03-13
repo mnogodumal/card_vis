@@ -3,7 +3,7 @@
   background: var(--green-color);
 
   &__wrapper {
-    min-height: calc(1103px - 92px);
+    min-height: calc(960px - 92px);
     display: flex;
     justify-content: center;
   }
@@ -15,6 +15,10 @@
   max-width: 660px;
   text-align: center;
 
+  @media (max-width: 991px) {
+    margin-top: 65px;
+  }
+
   &__header {
     padding: 0;
     margin: 0;
@@ -22,11 +26,20 @@
     font-weight: 400;
     letter-spacing: 0.02em;
     line-height: 100%;
+
+    @media (max-width: 991px) {
+      font-size: 88px;
+    }
+
   }
 
   &__text {
     margin-top: 36px;
     font-weight: 400;
     font-size: 21px;
+
+    @media (max-width: 991px) {
+      margin-top: 30px;
+    }
   }
 }

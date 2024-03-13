@@ -4,16 +4,21 @@
   margin-top: 90px;
   gap: 26px;
 
+  @media (max-width: 991px) {
+    margin-top: 60px;
+    gap: 20px;
+  }
+
   &__column-one {
     display: flex;
     flex-direction: column;
-    row-gap: 46px;
+    row-gap: 36px;
   }
 
   &__column-two {
-    margin-top: 120px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
-    row-gap: 46px;
+    row-gap: 36px;
   }
 }

@@ -6,5 +6,10 @@
     gap: 42px;
     padding: 134px 122px;
     background: var(--green-color);
+
+    @media (max-width: 991px) {
+      padding: 50px;
+      gap: 32px;
+    }
   }
 }

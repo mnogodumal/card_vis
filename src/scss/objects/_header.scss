@@ -7,6 +7,10 @@
     gap: 24px;
     text-align: center;
     justify-content: center;
+
+    @media (max-width: 991px) {
+      margin: 30px;
+    }
   }
 
   a {
