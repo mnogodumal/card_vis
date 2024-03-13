@@ -11,5 +11,9 @@
       padding: 50px;
       gap: 32px;
     }
+
+    @media (max-width: 767px) {
+      gap: 13px;
+    }
   }
 }

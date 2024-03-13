@@ -8,6 +8,11 @@
     height: 400px;
   }
 
+  @media (max-width: 767px) {
+    width: 310px;
+    height: 130px;
+  }
+
   &__bg-img {
     position: absolute;
     bottom: 0;
@@ -28,6 +33,12 @@
       left: calc(50% - 120px);
       bottom: 5px;
     }
+
+    @media (max-width: 767px) {
+      width: 104px;
+      left: calc(50% - 52px);
+      bottom: 2px;
+    }
   }
 
   &__text {
@@ -38,11 +49,19 @@
       bottom: 238px;
     }
 
+    @media (max-width: 767px) {
+      bottom: 105px;
+    }
+
     &__wrapper {
       position: relative;
 
       @media (max-width: 991px) {
         width: 131px;
+      }
+
+      @media (max-width: 767px) {
+        width: 55px;
       }
     }
 
@@ -63,6 +82,12 @@
       @media (max-width: 991px) {
         left: 46%;
         font-size: 8px;
+      }
+
+      @media (max-width: 767px) {
+        left: 36%;
+        top: 42%;
+        font-size: 4px;
       }
     }
   }

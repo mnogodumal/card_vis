@@ -1,4 +1,15 @@
 .app-icon {
   display: flex;
   gap: 20px;
+
+  @media (max-width: 767px) {
+    gap: 10px;
+  }
+
+  &__img {
+    @media (max-width: 767px) {
+      width: 83px;
+      height: 27px;
+    }
+  }
 }

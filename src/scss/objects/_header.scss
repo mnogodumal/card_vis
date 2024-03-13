@@ -11,9 +11,17 @@
     @media (max-width: 991px) {
       margin: 30px;
     }
+
+    @media (max-width: 767px) {
+      margin: 15px;
+    }
   }
 
   a {
     color: black;
+
+    @media (max-width: 767px) {
+      font-size: 10px;
+    }
   }
 }
